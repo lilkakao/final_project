@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/sswiper-bundle.min.css">
+
+        <title>Responsive glasses website - Bedimcode</title>
+
+
+       
+
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/favicon.png" alt="" width="40px"> Gold Optica
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html #home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="index.html #about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="index.html #products" class="nav__link">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="index.html #new" class="nav__link">New</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="index.html #tutorial" class="nav__link">Tutorial</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="index.html #faqs" class="nav__link">FAQs</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="index.html #contact" class="nav__link">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+    <!--icon  -->  <a href="basket.html"><i class="ri-shopping-basket-2-line"></i>Cart<span>0</span></a>
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+            <!--==================== HOME ====================-->
+          
+
+
+                <section class="product_section_container" id="products">
+                    <br><br><br>
+                    <h2 class="section__title-center">
+                        Check out our <br> products
+                    </h2>
+    
+                    <p class="product__description">
+                        Here are some selected glasses. Buy and enjoy best quality.
+                    </p>
+    
+                    <div class="product__container grid" >
+                        <article class="product__card">
+                            <div class="product__circle"></div>
+    
+                            <img src="assets/img/product1.png" alt="" class="product__img">
+    
+                            <h3 class="product__title">Optical Frame Boxy</h3>
+                            <span class="product__price">$19.99</span>
+    
+                            <button class="button--flex product__button" onclick="displayCarts()" data-productId="1">
+                                <i class="ri-shopping-bag-line"></i>
+                            </button>
+                        </article>
+    
+                        <article class="product__card">
+                            <div class="product__circle"></div>
+    
+                            <img src="assets/img/product2.png" alt="" class="product__img">
+    
+                            <h3 class="product__title">Sunglasses Bage Boxy</h3>
+                            <span class="product__price">$11.99</span>
+    
+                            <button class="button--flex product__button" data-productId="2">
+                                <i class="ri-shopping-bag-line"></i>
+                            </button>
+                        </article>
+    
+                        <article class="product__card">
+                            <div class="product__circle"></div>
+    
+                            <img src="assets/img/product3.png" alt="" class="product__img">
+    
+                            <h3 class="product__title">Optical Frame Grey</h3>
+                            <span class="product__price">$7.99</span>
+    
+                            <button class="button--flex product__button" data-productId="3">
+                                <i class="ri-shopping-bag-line"></i>
+                            </button>
+                        </article>
+    
+                        <article class="product__card">
+                            <div class="product__circle"></div>
+    
+                            <img src="assets/img/product4.png" alt="" class="product__img">
+    
+                            <h3 class="product__title">Optical Frame Foxy</h3>
+                            <span class="product__price">$5.99</span>
+    
+                            <button class="button--flex product__button" data-productId="4">
+                                <i class="ri-shopping-bag-line"></i>
+                            </button>
+                        </article>
+    
+                        <article class="product__card">
+                            <div class="product__circle"></div>
+    
+                            <img src="assets/img/product5.png" alt="" class="product__img">
+    
+                            <h3 class="product__title">Sunglasses Bage</h3>
+                            <span class="product__price">$10.99</span>
+    
+                            <button class="button--flex product__button" data-productId="5">
+                                <i class="ri-shopping-bag-line"></i>
+                            </button>
+                        </article>
+    
+                        <article class="product__card">
+                            <div class="product__circle"></div>
+    
+                            <img src="assets/img/product6.png" alt="" class="product__img">
+    
+                            <h3 class="product__title">Optical Frame Thin</h3>
+                            <span class="product__price">$8.99</span>
+    
+                            <button class="button--flex product__button" data-productId="6">
+                                <i class="ri-shopping-bag-line"></i>
+                            </button>
+                        </article>
+                    </div>
+                
+       
+            <section>
+               
+
+        
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <img src="assets/img/favicon.png" alt="" width="40px"> Gold Optica
+                    </a>
+
+                    <h3 class="footer__title">
+                        Subscribe to our newsletter <br> to stay update
+                    </h3>
+
+                    <!-- <div class="footer__subscribe">
+                        <input type="email" placeholder="Enter your email" class="footer__input">
+
+                        <button class="button button--flex footer__button">
+                            Subscribe
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </div> -->
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Address</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">Kazakhstan</li>
+                        <li class="footer__information">Almaty</li>
+                        <li class="footer__information"><a href="https://2gis.kz/almaty/firm/70000001045093268?m=76.843%2C43.2101%2F16">Abylai Khan, 1/1 2gis</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contact Us</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">+7 (778) 315 5087</li>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/gold_optica_/?hl=ru" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://api.whatsapp.com/message/QJERDSJQ3SLQD1" class="footer__social-link">
+                                <i class="ri-whatsapp-fill"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        We accept all credit cards
+                    </h3>
+
+                    <div class="footer__cards">
+                        <img src="assets/img/card1.png" alt="" class="footer__card">
+                        <img src="assets/img/card2.png" alt="" class="footer__card">
+                        <img src="assets/img/card3.png" alt="" class="footer__card">
+                        <img src="assets/img/card4.png" alt="" class="footer__card">
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Bedimcode. All rigths reserved <br> ТОТА <br> sduденты</p>
+        </footer>
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/css/sswiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <!-- <script src="assets/js/main.js"></script> -->
+        <script src="js/script.js"></script>
+
+        <script src="assets/js/basket.js"></script>
+    </body>
+</html>
